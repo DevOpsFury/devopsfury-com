@@ -1,4 +1,4 @@
-BLOG_AUTHOR = "DevOps Fury"
+BLOG_AUTHOR = "Grzegorz S. Adamowicz"
 BLOG_TITLE = "DevOps Fury"
 BLOG_DESCRIPTION = "Practical ideas for building, shipping, and running better systems."
 BLOG_EMAIL = "hello@devopsfury.com"

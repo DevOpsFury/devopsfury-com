@@ -1,0 +1,64 @@
+## -*- coding: utf-8 -*-
+<%namespace name="helper" file="index_helper.tmpl"/>
+<%namespace name="math" file="math_helper.tmpl"/>
+<%namespace name="comments" file="comments_helper.tmpl"/>
+<%namespace name="pagination" file="pagination_helper.tmpl"/>
+<%namespace name="feeds_translations" file="feeds_translations_helper.tmpl" import="*"/>
+<%inherit file="base.tmpl"/>
+
+<%block name="extra_head">
+  ${parent.extra_head()}
+  % if posts and (permalink == '/' or permalink == '/' + index_file):
+    <link rel="prefetch" href="${posts[0].permalink()}" type="text/html">
+  % endif
+  ${math.math_styles_ifposts(posts)}
+</%block>
+
+<%block name="content">
+  <%block name="content_header">
+    ${feeds_translations.translation_link(kind)}
+  </%block>
+  % if 'main_index' in pagekind:
+    ${front_index_header}
+  % endif
+  <section class="intro blog-intro" aria-labelledby="blog-title">
+    <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> From the field</p>
+    <h1 id="blog-title">Notes, ideas, and<br><span>things worth sharing.</span></h1>
+    <p class="intro-copy">Practical lessons on building, shipping, and running software.</p>
+  </section>
+  % if page_links:
+    ${pagination.page_navigation(current_page, page_links, prevlink, nextlink, prev_next_links_reversed)}
+  % endif
+  <div class="postindex">
+    % for post in posts:
+      <article class="blog-post-card h-entry post-${post.meta('type')}" itemscope="itemscope" itemtype="http://schema.org/Article">
+        <header>
+          <p class="post-kicker">Article <span aria-hidden="true">/</span> ${post.formatted_date(date_format)|h}</p>
+          <h2 class="p-name entry-title"><a href="${post.permalink()}" class="u-url">${post.title()|h}</a></h2>
+          <div class="post-meta">
+            <span class="byline author vcard" itemprop="author">
+              % if author_pages_generated and multiple_authors_per_post:
+                % for author in post.authors():
+                  <a href="${_link('author', author)}">${author|h}</a>
+                % endfor
+              % elif author_pages_generated:
+                <a href="${_link('author', post.author())}">${post.author()|h}</a>
+              % else:
+                ${post.author()|h}
+              % endif
+            </span>
+          </div>
+        </header>
+        % if index_teasers:
+          <div class="p-summary entry-summary">${post.text(teaser_only=True)}</div>
+        % else:
+          <div class="e-content entry-content">${post.text(teaser_only=False)}</div>
+        % endif
+        <a class="post-read-more" href="${post.permalink()}">Read article <span aria-hidden="true">↗</span></a>
+      </article>
+    % endfor
+  </div>
+  ${helper.html_pager()}
+  ${comments.comment_link_script()}
+  ${math.math_scripts_ifposts(posts)}
+</%block>

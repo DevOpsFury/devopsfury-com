@@ -1,0 +1,58 @@
+## -*- coding: utf-8 -*-
+<%namespace name="base" file="base_helper.tmpl" import="*"/>
+${set_locale(lang)}
+${base.html_headstart()}
+<%block name="extra_head">
+</%block>
+${template_hooks['extra_head']()}
+</head>
+<body class="site-page">
+  <a class="skip-link" href="#content">${messages("Skip to main content")}</a>
+  <header class="site-header blog-site-header">
+    <a class="wordmark" href="/" aria-label="DevOps Fury home">
+      <span class="wordmark-devops">DEVOPS</span><span class="wordmark-fury">FURY</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <ul class="site-nav">
+        ${base.html_navigation_links_entries(navigation_links)}
+        ${template_hooks['menu']()}
+      </ul>
+    </nav>
+  </header>
+
+  <main class="blog-main" id="content" role="main">
+    ${template_hooks['page_header']()}
+    <%block name="extra_header"></%block>
+    <%block name="content"></%block>
+  </main>
+
+  <footer class="site-footer blog-site-footer">
+    <a class="wordmark wordmark-footer" href="/" aria-label="DevOps Fury home">
+      <span class="wordmark-devops">DEVOPS</span><span class="wordmark-fury">FURY</span>
+    </a>
+    <p>Practical ideas for better systems.</p>
+    <span>© DevOps Fury</span>
+    ${template_hooks['page_footer']()}
+  </footer>
+
+  ${base.late_load_js()}
+  %if date_fanciness != 0:
+    <script>
+      luxon.Settings.defaultLocale = "${luxon_locales[lang]}";
+      fancydates(${date_fanciness}, ${luxon_date_format});
+    </script>
+  %endif
+  <%block name="extra_js"></%block>
+  <script>
+    baguetteBox.run('#content', {
+      ignoreClass: 'islink',
+      captions: function(element) {
+        var image = element.getElementsByTagName('img')[0];
+        return image === undefined ? '' : image.alt;
+      }
+    });
+  </script>
+  ${body_end}
+  ${template_hooks['body_end']()}
+</body>
+</html>

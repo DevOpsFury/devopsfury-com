@@ -52,16 +52,16 @@
               <li>Networking &amp; Terraform</li>
             </ul>
             <div class="book-purchase-links" aria-label="Buy The Linux DevOps Handbook">
-              <a class="book-link" href="https://www.amazon.com/Linux-DevOps-Handbook-distributions-accelerate/dp/1803245662" target="_blank" rel="noopener noreferrer" aria-label="Buy on Amazon">
+              <a class="book-link" href="https://www.amazon.com/Linux-DevOps-Handbook-distributions-accelerate/dp/1803245662" target="_blank" rel="noopener noreferrer" aria-label="Buy on Amazon" data-shop-retailer="Amazon">
                 Amazon <span aria-hidden="true">↗</span>
               </a>
-              <a class="book-link book-link-secondary" href="https://www.packtpub.com/en-us/product/the-linux-devops-handbook-9781803245669" target="_blank" rel="noopener noreferrer" aria-label="Buy on Packt">
+              <a class="book-link book-link-secondary" href="https://www.packtpub.com/en-us/product/the-linux-devops-handbook-9781803245669" target="_blank" rel="noopener noreferrer" aria-label="Buy on Packt" data-shop-retailer="Packt">
                 Packt <span aria-hidden="true">↗</span>
               </a>
-              <a class="book-link book-link-secondary" href="https://www.empik.com/the-linux-devops-handbook-ebook-epub-opracowanie-zbiorowe,p1433866571,ebooki-i-mp3-p" target="_blank" rel="noopener noreferrer" aria-label="Buy on Empik">
+              <a class="book-link book-link-secondary" href="https://www.empik.com/the-linux-devops-handbook-ebook-epub-opracowanie-zbiorowe,p1433866571,ebooki-i-mp3-p" target="_blank" rel="noopener noreferrer" aria-label="Buy on Empik" data-shop-retailer="Empik">
                 Empik <span aria-hidden="true">↗</span>
               </a>
-              <a class="book-link book-link-secondary" href="https://helion.pl/ksiazki/the-linux-devops-handbook-customize-and-scale-your-linux-distributions-to-accelerate-your-devops-wo-damian-wojslaw-grzegorz-adamowicz,e_3pi1.htm#format/e" target="_blank" rel="noopener noreferrer" aria-label="Buy on Helion">
+              <a class="book-link book-link-secondary" href="https://helion.pl/ksiazki/the-linux-devops-handbook-customize-and-scale-your-linux-distributions-to-accelerate-your-devops-wo-damian-wojslaw-grzegorz-adamowicz,e_3pi1.htm#format/e" target="_blank" rel="noopener noreferrer" aria-label="Buy on Helion" data-shop-retailer="Helion">
                 Helion <span aria-hidden="true">↗</span>
               </a>
             </div>
@@ -143,5 +143,17 @@
     <p>Practical ideas for better systems.</p>
     <span>© DevOps Fury</span>
   </footer>
+  <script>
+    document.querySelectorAll('[data-shop-retailer]').forEach(function(link) {
+      link.addEventListener('click', function() {
+        gtag('event', 'book_shop_click', {
+          book_title: 'The Linux DevOps Handbook',
+          retailer: link.dataset.shopRetailer,
+          outbound_url: link.href,
+          transport_type: 'beacon'
+        });
+      });
+    });
+  </script>
 </body>
 </html>

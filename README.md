@@ -4,6 +4,11 @@ The DevOps Fury website is built with [Nikola](https://getnikola.com/). The
 landing page is in `files/index.html`; blog entries belong in `posts/` and are
 published under `/blog/`.
 
+The Polish version is published under `/pl/`, with its landing page in
+`pl-files/index.html`. Add Polish post translations alongside English posts
+using Nikola's language suffix, for example `posts/welcome.pl.md`; translated
+blog posts are published under `/pl/blog/`.
+
 ## Build locally
 
 ```sh

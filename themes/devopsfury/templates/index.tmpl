@@ -22,9 +22,14 @@
     ${front_index_header}
   % endif
   <section class="intro blog-intro" aria-labelledby="blog-title">
-    <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> From the field</p>
-    <h1 id="blog-title">Notes, ideas, and<br><span>things worth sharing.</span></h1>
-    <p class="intro-copy">Practical lessons on building, shipping, and running software.</p>
+    <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span>${"Z praktyki" if lang == "pl" else "From the field"}</p>
+    % if lang == "pl":
+      <h1 id="blog-title">Notatki, pomysły i<br><span>wartościowe obserwacje.</span></h1>
+      <p class="intro-copy">Praktyczne doświadczenia z budowania, wdrażania i utrzymywania oprogramowania.</p>
+    % else:
+      <h1 id="blog-title">Notes, ideas, and<br><span>things worth sharing.</span></h1>
+      <p class="intro-copy">Practical lessons on building, shipping, and running software.</p>
+    % endif
   </section>
   % if page_links:
     ${pagination.page_navigation(current_page, page_links, prevlink, nextlink, prev_next_links_reversed)}
@@ -54,7 +59,7 @@
         % else:
           <div class="e-content entry-content">${post.text(teaser_only=False)}</div>
         % endif
-        <a class="post-read-more" href="${post.permalink()}">Read article <span aria-hidden="true">↗</span></a>
+        <a class="post-read-more" href="${post.permalink()}">${"Czytaj artykuł" if lang == "pl" else "Read article"} <span aria-hidden="true">↗</span></a>
       </article>
     % endfor
   </div>

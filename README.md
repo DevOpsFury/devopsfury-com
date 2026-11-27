@@ -9,6 +9,10 @@ The Polish version is published under `/pl/`, with its landing page in
 using Nikola's language suffix, for example `posts/welcome.pl.md`; translated
 blog posts are published under `/pl/blog/`.
 
+The cooperation pages are written in `pages/cooperation.md` and
+`pages/cooperation.pl.md`, and are published at `/cooperation/` and
+`/pl/wspolpraca/`.
+
 ## Build locally
 
 ```sh

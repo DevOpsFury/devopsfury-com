@@ -27,10 +27,12 @@ EXTRA_HEAD_DATA = '<link rel="stylesheet" href="/assets/css/site.css">'
 NAVIGATION_LINKS = {
     "en": (
         ("/#books", "Books"),
+        ("/cooperation/", "Work together"),
         ("/blog/", "Blog"),
     ),
     "pl": (
         ("/pl/#ksiazki", "Książki"),
+        ("/pl/wspolpraca/", "Współpraca"),
         ("/pl/blog/", "Blog"),
     ),
 }

@@ -79,6 +79,20 @@ a {
   color: var(--red);
 }
 
+.site-header .wordmark:hover,
+.site-header .wordmark:focus-visible {
+  text-decoration: none;
+}
+
+.wordmark-devops {
+  transition: color 160ms ease;
+}
+
+.wordmark:hover .wordmark-devops,
+.wordmark:focus-visible .wordmark-devops {
+  color: var(--red);
+}
+
 .site-header nav {
   display: flex;
   align-items: center;
@@ -666,13 +680,16 @@ a {
 }
 
 .blog-post-card .entry-title a,
-.blog-main .postpage .entry-title a {
+.blog-main .postpage .entry-title a,
+.blog-main .storypage .entry-title a {
   color: var(--paper);
   text-decoration: none;
 }
 
 .blog-post-card .entry-title a:hover,
-.blog-main .postpage .entry-title a:hover {
+.blog-main .postpage .entry-title a:hover,
+.blog-main .storypage .entry-title a:hover,
+.blog-main .storypage .entry-title a:focus-visible {
   color: var(--red);
 }
 
@@ -685,6 +702,11 @@ a {
 .post-meta a,
 .blog-main .entry-content a,
 .blog-main .entry-summary a {
+  color: var(--red);
+}
+
+.blog-main .entry-content a:hover,
+.blog-main .entry-summary a:not(.post-read-more):hover {
   color: var(--red);
 }
 

@@ -22,7 +22,11 @@ ${template_hooks['extra_head']()}
     <nav aria-label="Main navigation">
       <ul class="site-nav">
         ${base.html_navigation_links_entries(navigation_links)}
-        ${base.html_translations()}
+        %for language in sorted(translations):
+          %if language != lang:
+            <li class="nav-item"><a href="${_link("root", None, language)}" rel="alternate" hreflang="${language}" class="nav-link" aria-label="${'Switch to Polish' if lang == 'en' else 'Przełącz na stronę angielską'}">${language.upper()}</a></li>
+          %endif
+        %endfor
         ${template_hooks['menu']()}
       </ul>
     </nav>

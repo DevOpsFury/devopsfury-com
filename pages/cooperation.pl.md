@@ -1,123 +1,120 @@
 <!--
-.. title: Zobacz, co ogranicza skuteczność Twojej organizacji technologicznej
+.. title: Diagnoza skuteczności organizacji technologicznej
 .. slug: wspolpraca
-.. description: Diagnoza tego, co ogranicza skuteczność organizacji technologicznej, wraz z priorytetami i praktycznymi kolejnymi krokami.
+.. description: Diagnoza dla liderów technologii: ustal, co utrudnia niezawodną pracę i przewidywalne dostarczanie, oraz co warto zmienić w pierwszej kolejności.
 .. nocomments: True
 .. type: text
 -->
 
-**Diagnoza skuteczności organizacji technologicznej** pomaga liderom zrozumieć, co utrudnia niezawodne działanie i przewidywalne dostarczanie oprogramowania — oraz ustalić, które zmiany warto rozważyć w pierwszej kolejności.
+# Sprawdź, co ogranicza skuteczność Twojej organizacji technologicznej
 
-Przyglądamy się sposobowi działania organizacji: odpowiedzialności, współpracy, przepływowi pracy, decyzjom i warunkom, w których pracują zespoły. Nie szukamy winnych ani nie rekomendujemy narzędzi dla samych narzędzi.
+**Diagnoza skuteczności organizacji technologicznej** pomaga ustalić, co utrudnia niezawodne działanie i przewidywalne dostarczanie oprogramowania — i co warto poprawić w pierwszej kolejności.
 
-<p class="cooperation-cta"><a href="https://calendar.app.google/jxUYtBSg3hKKfvJ46">Umów bezpłatną rozmowę wstępną</a></p>
+Pilotaż obejmuje wszystkie pięć obszarów diagnozy i jest przeznaczony dla **jednego zespołu do 10 osób**. Diagnoza trwa orientacyjnie **2–4 tygodnie**. Otrzymujesz raport PDF, priorytety, propozycję pierwszych kroków oraz trzy spotkania kontrolne po 30, 60 i 90 dniach.
 
-Rozmowa służy sprawdzeniu, czy diagnoza pasuje do Twojej sytuacji i jaki zakres miałby sens. Nie jest pełną konsultacją ani zobowiązaniem do rozpoczęcia projektu.
+<p class="cooperation-cta"><a href="https://calendar.app.google/jxUYtBSg3hKKfvJ46" target="_blank">Umów bezpłatną rozmowę wstępną</a></p>
 
-# Kiedy warto rozważyć diagnozę?
+Podczas rozmowy omówimy Twoją sytuację i sprawdzimy, czy pilotaż odpowiada na Twoje potrzeby. Rozmowa jest bezpłatna i nie zobowiązuje do rozpoczęcia współpracy. Nie jest pełną konsultacją.
 
-Może być pomocna, gdy awarie regularnie wypierają zaplanowaną pracę, dostarczanie zmian jest trudne do przewidzenia albo nie jest jasne, kto odpowiada za decyzje i systemy.
+# Czy to sytuacja, z którą mierzy się Twoja organizacja?
 
-Powodem do przyjrzenia się sytuacji mogą być też silosy wiedzy, narastający dług techniczny, przeciążenie zespołów lub trudność w powiązaniu inwestycji technicznych z celami biznesowymi. Nie zakładamy, że wszystkie te problemy występują w Twojej organizacji. Diagnoza pomaga ustalić, które z nich — jeśli w ogóle — są istotne.
+Diagnoza może być pomocna, jeśli awarie regularnie wypierają zaplanowaną pracę, trudno przewidzieć terminy dostarczania zmian albo nie wiadomo, kto odpowiada za systemy i decyzje.
+
+Warto się jej przyjrzeć także wtedy, gdy wiedza jest skupiona w kilku osobach, dług techniczny narasta, zespoły są przeciążone albo trudno powiązać inwestycje techniczne z celami biznesowymi. To możliwe sygnały, a nie założenia na temat Twojej organizacji. Diagnoza pomaga ustalić, które z nich mają znaczenie.
 
 # Dla kogo?
 
-Dla CTO, VP Engineering, liderów i menedżerów inżynierii, liderów DevOps, SRE i Platform Engineering oraz właścicieli firm technologicznych, którzy odpowiadają za skuteczność zespołów.
+Pilotaż jest przeznaczony dla CTO, VP Engineering, dyrektorów i menedżerów inżynierii, liderów DevOps, SRE i Platform Engineering oraz właścicieli firm technologicznych odpowiedzialnych za skuteczność zespołów.
 
-To propozycja dla osób gotowych wspólnie przyjrzeć się temu, jak działa organizacja, i rozważyć możliwe usprawnienia.
+To propozycja dla osób, które chcą lepiej zrozumieć sposób pracy organizacji i ustalić z zespołem, co warto usprawnić.
 
-## Kiedy to nie jest właściwa forma współpracy?
+### Kiedy to nie będzie właściwe rozwiązanie?
 
-To nie jest audyt techniczny ani ocena pracowników. Jeśli potrzebujesz wyłącznie przeglądu kodu, infrastruktury lub konkretnego narzędzia albo oczekujesz wskazania winnych, ta forma współpracy nie będzie właściwa. Diagnoza nie obejmuje automatycznie wdrożenia wszystkich rekomendacji.
+To nie jest audyt kodu, bezpieczeństwa ani infrastruktury. Diagnoza nie służy też ocenie pracowników, wyborowi konkretnego narzędzia ani szukaniu winnych. Obejmuje rozpoznanie sytuacji i rekomendacje — wdrożenie zmian nie jest częścią pilotażu.
 
-# Co analizujemy?
+# Co obejmuje diagnoza?
 
-Diagnoza obejmuje wszystkie pięć obszarów. Analizujemy je w kontekście Twojej organizacji i pytań, na które chcesz znaleźć odpowiedź.
+Przyglądamy się wszystkim pięciu obszarom, uwzględniając kontekst Twojej organizacji:
 
 1. **Niezawodność i ryzyko operacyjne** — jak organizacja rozpoznaje ryzyka, reaguje na awarie i wyciąga wnioski z zakłóceń.
-2. **Dostarczanie oprogramowania i przepływ pracy** — co wpływa na kolejki, opóźnienia, poprawki, przekazywanie pracy i przewidywalność dostarczania.
-3. **Organizacja, odpowiedzialność i współpraca** — czy wiadomo, kto podejmuje decyzje i odpowiada za systemy oraz wyniki; jak zależności między zespołami wpływają na pracę.
-4. **Przywództwo, decyzje i priorytety** — jak organizacja ustala priorytety oraz podejmuje decyzje dotyczące ryzyka, długu technicznego i inwestycji.
-5. **Ludzie, kompetencje i obciążenie** — jak obciążenie, rozwój umiejętności i zależność od pojedynczych osób wpływają na pracę zespołów.
+2. **Dostarczanie oprogramowania i przepływ pracy** — gdzie powstają opóźnienia, kolejki, poprawki i przekazania pracy utrudniające przewidywalne dostarczanie.
+3. **Organizacja, odpowiedzialność i współpraca** — czy zakres odpowiedzialności jest jasny i jak zależności między zespołami wpływają na wyniki.
+4. **Przywództwo, decyzje i priorytety** — jak ustalane są priorytety oraz podejmowane decyzje dotyczące ryzyka, długu technicznego i inwestycji.
+5. **Ludzie, kompetencje i obciążenie** — jak obciążenie pracą, rozwój kompetencji i zależność od pojedynczych osób wpływają na działanie zespołów.
 
 # Co otrzymujesz?
 
-- **Diagnozę wszystkich pięciu obszarów** — podsumowanie obserwacji i kontekstu, z uwzględnieniem ograniczeń dostępnych informacji.
-- **Rozróżnienie między obserwacjami a hipotezami** — aby nie przedstawiać niepełnych danych jako pewników.
-- **Priorytety i rekomendacje** — możliwe zmiany uporządkowane według ich znaczenia dla organizacji.
-- **Raport w PDF** — wysłany do 14 dni po ostatnim spotkaniu diagnostycznym.
-- **Propozycję pierwszych kroków na 30/60/90 dni** — sugerowaną kolejność działań, zależności i sygnały, które organizacja może obserwować.
-- **Trzy spotkania kontrolne** — każde trwa około godziny i odbywa się 30, 60 oraz 90 dni po zakończeniu diagnozy.
+- **Raport PDF** do 14 dni po ostatnim spotkaniu diagnostycznym. Zawiera podsumowanie obserwacji i kontekstu, wskazuje ograniczenia dostępnych informacji oraz oddziela ustalenia od hipotez.
+- **Priorytety i rekomendacje**, które pomagają zdecydować, czym zająć się najpierw.
+- **Propozycję pierwszych kroków na 30/60/90 dni**, z sugerowaną kolejnością, zależnościami i sygnałami, które można obserwować.
+- **Trzy spotkania kontrolne**, każde trwające około godziny, po 30, 60 i 90 dniach od zakończenia diagnozy. To czas na omówienie postępów i przeszkód.
 
-Diagnoza dostarcza podstaw do decyzji, ale nie gwarantuje określonej poprawy niezawodności, tempa dostarczania ani wyniku finansowego. Decyzje o wdrożeniu rekomendacji należą do Twojej organizacji.
-
-# Jak przebiega współpraca?
-
-1. **Bezpłatna rozmowa wstępna** — omawiamy kontekst i pytanie, na które chcesz znaleźć odpowiedź. Sprawdzamy, czy diagnoza będzie odpowiednią formą pracy.
-2. **Uzgodnienie startu** — potwierdzamy skład zespołu, terminy i praktyczne zasady współpracy. Pilotaż jest przeznaczony dla zespołu do 10 osób i obejmuje wszystkie pięć obszarów.
-3. **Diagnoza** — etap trwa orientacyjnie 2–4 tygodnie. Sposób pracy i spotkania ustalamy przed rozpoczęciem.
-4. **Raport** — do 14 dni po ostatnim spotkaniu diagnostycznym otrzymujesz raport PDF z podsumowaniem, priorytetami i rekomendacjami.
-5. **Omówienie postępów** — spotykamy się po 30, 60 i 90 dniach od zakończenia diagnozy. Każde spotkanie trwa około godziny i służy rozmowie o postępach oraz przeszkodach, a nie przejęciu odpowiedzialności za wdrożenie.
-
-# Harmonogram
-
-Etap diagnostyczny trwa orientacyjnie **2–4 tygodnie**. Raport PDF otrzymujesz do 14 dni po ostatnim spotkaniu diagnostycznym. Spotkania kontrolne odbywają się 30, 60 i 90 dni po zakończeniu diagnozy.
-
-Terminy etapu diagnostycznego zależą od dostępności uczestników i uzgodnionego harmonogramu. Potwierdzamy je przed rozpoczęciem.
+Diagnoza ma ułatwić podejmowanie decyzji, ale nie gwarantuje poprawy niezawodności, tempa dostarczania ani wyników finansowych. Twoja organizacja decyduje, które rekomendacje wdrożyć, i odpowiada za ich realizację.
 
 # Zakres i cena
 
-Pilotaż jest przeznaczony dla **zespołu do 10 osób** i obejmuje wszystkie pięć obszarów diagnozy. W cenie uwzględniono etap diagnostyczny, raport PDF wysłany do 14 dni po ostatnim spotkaniu diagnostycznym oraz trzy spotkania kontrolne trwające około godziny — po 30, 60 i 90 dniach.
+Pilotaż ma jasno określony zakres: jeden zespół do 10 osób, wszystkie pięć obszarów, diagnoza trwająca 2–4 tygodnie, raport PDF i trzy spotkania kontrolne.
 
 <div class="cooperation-price">
-  <p><strong>Oferta zaakceptowana do 31 stycznia 2027: 14 000 PLN netto.</strong></p>
-  <p><strong>Cena od 1 lutego 2027: 27 000 PLN netto.</strong></p>
+  <p><strong>14 000 zł netto</strong> przy akceptacji oferty lub podpisaniu umowy do 31 stycznia 2027 r.</p>
+  <p><strong>27 000 zł netto</strong> od 1 lutego 2027 r.</p>
 </div>
 
-Stawka 14 000 PLN netto obowiązuje, jeśli zaakceptujesz ofertę lub podpiszesz umowę do 31 stycznia 2027 roku — niezależnie od terminu rozpoczęcia diagnozy. Większy zespół lub szerszy zakres wymaga osobnego uzgodnienia przed rozpoczęciem.
+Cena 14 000 zł netto obowiązuje, jeśli zaakceptujesz ofertę lub podpiszesz umowę do 31 stycznia 2027 r. Termin rozpoczęcia diagnozy może być późniejszy. Większy zespół lub inny zakres wymaga osobnego uzgodnienia przed rozpoczęciem współpracy.
 
-Wdrożenie rekomendacji nie jest częścią diagnozy. To Twoja organizacja decyduje, które działania podjąć, i odpowiada za ich realizację.
+# Jak przebiega współpraca?
+
+1. **Bezpłatna rozmowa.** Omawiamy sytuację i to, co chcesz ustalić. Sprawdzamy, czy pilotaż pasuje do Twoich potrzeb. Po rozmowie możesz zdecydować, czy chcesz przejść dalej.
+2. **Uzgodnienie zakresu i terminów.** Ustalamy, kto weźmie udział, harmonogram spotkań i zasady udostępniania informacji.
+3. **Diagnoza.** Praca trwa orientacyjnie 2–4 tygodnie. Dokładny harmonogram zależy od dostępności uczestników.
+4. **Raport.** Otrzymujesz raport PDF do 14 dni po ostatnim spotkaniu diagnostycznym.
+5. **Spotkania kontrolne.** Spotykamy się na około godzinę po 30, 60 i 90 dniach od zakończenia diagnozy.
+
+<figure class="cooperation-process-figure">
+  <img src="/assets/images/diagnosis_pl.png" alt="Pięć etapów: rozmowa wstępna, uzgodnienie zakresu, diagnoza trwająca 2–4 tygodnie, raport i priorytety oraz spotkania kontrolne po 30, 60 i 90 dniach." loading="lazy" decoding="async">
+  <figcaption>Proces współpracy w skrócie.</figcaption>
+</figure>
+
+# Harmonogram
+
+Etap diagnozy trwa orientacyjnie **2–4 tygodnie**. Raport otrzymujesz do 14 dni po ostatnim spotkaniu diagnostycznym. Spotkania kontrolne odbywają się po 30, 60 i 90 dniach od zakończenia diagnozy. Harmonogram potwierdzamy przed rozpoczęciem.
 
 # O autorze
 
 Grzegorz Adamowicz ma ponad 15 lat doświadczenia w IT. Pracował w obszarach administracji systemami, programowania backendu, architektury systemów oraz Site Reliability Engineering. Prowadził także inicjatywę DevOps i zajmował się rozwojem zespołów, współpracą z interesariuszami, planowaniem zasobów oraz rozwojem ludzi.
 
-Jest współautorem książki *The Linux DevOps Handbook*, autorem ponad 20 publikacji technicznych w magazynie *IT Professional* oraz organizatorem wydarzeń technologicznych. W diagnozie łączy techniczne rozumienie systemów z perspektywą organizacji, podejmowania decyzji i pracy zespołów.
+Jest współautorem książki *The Linux DevOps Handbook*, autorem ponad 20 publikacji technicznych w magazynie *IT Professional* oraz organizatorem wydarzeń technologicznych. To doświadczenie łączy techniczne rozumienie systemów z perspektywą decyzji i sposobu pracy zespołów.
 
 # FAQ
 
-## Czy rozmowa wstępna jest bezpłatna?
+## Co obejmuje bezpłatna rozmowa?
 
-Tak. Rozmowa jest bezpłatna i służy poznaniu kontekstu oraz sprawdzeniu dopasowania diagnozy. Nie jest pełną konsultacją ani obietnicą gotowego rozwiązania podczas rozmowy.
+Rozmawiamy o Twojej sytuacji i oczekiwaniach, a następnie sprawdzamy, czy diagnoza jest odpowiednią formą współpracy. To nie jest pełna konsultacja ani obietnica gotowego rozwiązania. Nie zobowiązuje do rozpoczęcia projektu.
 
-## Ile osób może uczestniczyć?
+## Kto powinien wziąć udział i ile czasu trzeba zarezerwować?
 
-Pilotaż jest przeznaczony dla zespołu do 10 osób. Przed rozpoczęciem ustalamy, kto powinien uczestniczyć i w jaki sposób.
+Pilotaż obejmuje jeden zespół do 10 osób. Przed rozpoczęciem ustalamy uczestników i terminy spotkań. Każde z trzech spotkań kontrolnych trwa około godziny. Harmonogram diagnozy zależy od uzgodnionego zakresu i dostępności uczestników.
 
-## Czy potrzebujesz danych wrażliwych lub dostępu do produkcji?
+## Czy potrzebny jest dostęp do produkcji lub dane wrażliwe?
 
-Nie zakładamy dostępu do systemów produkcyjnych ani danych wrażliwych. Przed rozpoczęciem ustalamy, jakie informacje są potrzebne i na jakich zasadach można je udostępnić. Mogę podpisać NDA przed rozpoczęciem współpracy.
+Nie zakładamy dostępu do systemów produkcyjnych ani danych wrażliwych. Przed rozpoczęciem ustalamy, jakie informacje są potrzebne i na jakich zasadach mogą być udostępnione. Mogę podpisać NDA.
 
-## Czy to audyt techniczny?
+## Czy diagnoza jest audytem technicznym lub oceną pracowników?
 
-Nie. To diagnoza sposobu działania organizacji technologicznej. Może uwzględniać kontekst techniczny, ale nie jest automatycznie przeglądem kodu, testem bezpieczeństwa ani audytem infrastruktury.
+Nie. Analizujemy sposób działania organizacji z uwzględnieniem kontekstu technicznego. To nie jest przegląd kodu, test bezpieczeństwa, audyt infrastruktury ani ocena poszczególnych osób.
 
-## Co dzieje się po przekazaniu raportu?
+## Kto wdraża rekomendacje?
 
-Raport zawiera podsumowanie i rekomendacje. Następnie spotykamy się po 30, 60 i 90 dniach, aby omówić postępy. Twoja organizacja decyduje, co wdrożyć, i odpowiada za te działania; wdrożenie nie jest częścią diagnozy.
+Twoja organizacja decyduje, które rekomendacje wdrożyć, i odpowiada za ich realizację. Trzy spotkania kontrolne służą omówieniu postępów i przeszkód. Wdrożenie nie jest częścią pilotażu.
 
-## Czy diagnoza służy ocenie pracowników?
+## Czy podasz nazwę naszej organizacji lub użyjesz jej logo?
 
-Nie. Celem jest zrozumienie warunków i mechanizmów pracy — takich jak odpowiedzialność, zależności, priorytety czy obciążenie — a nie ocenianie osób i szukanie winnych.
-
-## Czy ujawnisz nazwę mojej organizacji lub użyjesz jej logo?
-
-Nie bez Twojej uprzedniej zgody. Po zakończeniu współpracy poproszę o informację zwrotną. Mogę też zapytać o możliwość uzyskania referencji, wymienienia nazwy organizacji lub umieszczenia jej logo. To dobrowolne — niczego nie publikuję bez Twojej zgody.
+Nie bez Twojej uprzedniej zgody. Po zakończeniu współpracy mogę poprosić o opinię, referencję lub zgodę na podanie nazwy organizacji i użycie logo. To dobrowolne — niczego nie opublikuję bez Twojej zgody.
 
 # Zacznijmy od rozmowy
 
-Opowiedz o swojej sytuacji, a wspólnie sprawdzimy, czy diagnoza jest właściwym kolejnym krokiem.
+Jeśli zakres i cena odpowiadają Twoim potrzebom, umów bezpłatną rozmowę. Sprawdzimy, czy pilotaż pasuje do sytuacji Twojej organizacji. Decyzję o dalszych krokach podejmiesz po rozmowie.
 
-<p class="cooperation-cta"><a href="https://calendar.app.google/jxUYtBSg3hKKfvJ46">Umów bezpłatną rozmowę wstępną</a></p>
+<p class="cooperation-cta"><a href="https://calendar.app.google/jxUYtBSg3hKKfvJ46" target="_blank">Umów bezpłatną rozmowę wstępną</a></p>
 
-Rozmowa nie zobowiązuje do rozpoczęcia projektu i nie zastępuje diagnozy.
+Rozmowa nie zobowiązuje do rozpoczęcia współpracy i nie zastępuje diagnozy.

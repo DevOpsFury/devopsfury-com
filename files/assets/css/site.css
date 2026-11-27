@@ -799,6 +799,24 @@ a {
   color: var(--red);
 }
 
+.cooperation-process-figure {
+  margin: 2rem 0;
+}
+
+.cooperation-process-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.cooperation-process-figure figcaption {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
 .blog-main .storypage .e-content p:not(.cooperation-cta) a {
   color: #ff8069;
 }
